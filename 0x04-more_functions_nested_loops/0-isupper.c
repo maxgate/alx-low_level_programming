@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _isupper - Checks for uppercase characters.
@@ -8,9 +9,13 @@
  */
 int _isupper(int c)
 {
+	char c;
+
 	if (c >= 'A' && c <= 'Z')
+	putchar("'%c' is uppercase alphabet.", c);
 		return (1);
 
-	else
+	else 
+	putchar("'c' is lower alphabet.", c);
 		return (0);
 }

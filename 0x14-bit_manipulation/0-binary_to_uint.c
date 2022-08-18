@@ -9,9 +9,8 @@
  * Return: converted number if successful, else 0
  */
 
-unsigned int binary_to_uint( const char *b)
+unsigned int binary_to_uint(const char *b)
 {
-	
 	unsigned int m = 1;
 	unsigned int res = 0;
 	int c;
